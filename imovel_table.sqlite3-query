@@ -1,0 +1,15 @@
+-- database: ./db.sqlite3
+
+SELECT * FROM api_imovel;
+
+INSERT INTO api_imovel (titulo, tipo, valor_aluguel, status, locador_id) VALUES
+('Apartamento Centro', 'Apartamento', 1500.00, 'DISPONIVEL', 1),
+('Casa Jardim América', 'Casa', 2800.00, 'ALUGADO', 2),
+('Kitnet Universitária', 'Kitnet', 900.00, 'DISPONIVEL', 1),
+('Cobertura Luxo', 'Apartamento', 5200.00, 'DISPONIVEL', 3),
+('Casa Praia', 'Casa', 3500.00, 'ALUGADO', 2),
+('Sala Comercial Centro', 'Comercial', 2200.00, 'DISPONIVEL', 3),
+('Apartamento Zona Sul', 'Apartamento', 1800.00, 'ALUGADO', 1),
+('Galpão Industrial', 'Galpão', 7500.00, 'DISPONIVEL', 2),
+('Studio Moderno', 'Studio', 1300.00, 'DISPONIVEL', 3),
+('Casa Condomínio Fechado', 'Casa', 4200.00, 'ALUGADO', 1);
