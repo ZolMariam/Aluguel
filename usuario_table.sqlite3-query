@@ -1,0 +1,15 @@
+-- database: ./db.sqlite3
+
+SELECT * FROM api_usuario;
+
+INSERT INTO api_usuario (nome, email, telefone, tipo) VALUES
+('Carlos Silva', 'carlos.silva@email.com', '11999990001', 'LOCADOR'),
+('Ana Souza', 'ana.souza@email.com', '11999990002', 'LOCADOR'),
+('Marcos Lima', 'marcos.lima@email.com', '11999990003', 'LOCADOR'),
+('Juliana Pereira', 'juliana.pereira@email.com', '11999990004', 'LOCATARIO'),
+('Rafael Costa', 'rafael.costa@email.com', '11999990005', 'LOCATARIO'),
+('Fernanda Alves', 'fernanda.alves@email.com', NULL, 'LOCATARIO'),
+('Bruno Rocha', 'bruno.rocha@email.com', '11999990007', 'LOCADOR'),
+('Patrícia Gomes', 'patricia.gomes@email.com', '11999990008', 'LOCATARIO'),
+('Lucas Martins', 'lucas.martins@email.com', NULL, 'LOCATARIO'),
+('Camila Ribeiro', 'camila.ribeiro@email.com', '11999990010', 'LOCADOR');
